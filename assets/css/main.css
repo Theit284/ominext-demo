@@ -263,10 +263,19 @@ a.sub_menu-link {
 .container_content_list_box{
     margin-top: 38px;
 }
+
+
+.content{
+    font-size: 14px;
+}
+h2{
+    font-size: 16px;
+}
 h3{
     margin: 0;
     font-size: 16px;
 }
+
 
 .container_top-choice {
     display: flex;
@@ -1633,8 +1642,9 @@ span.manager-name {
 
 .container_management-item{
     /* margin-top: 53px; */
-    width: 710px    ;
+    /* width: 710px    ; */
     margin-top: 20px;
+    flex: 1;
 }
 
 .container_management-item-card {
@@ -1779,6 +1789,7 @@ span.manager-name {
 
 .contact_form-item-group {
     margin-bottom: 1rem;
+    border-bottom: 1px solid;
 }
 
 .form-input-title {
@@ -1831,7 +1842,7 @@ span.manager-name {
 
 .form_textarea {
     resize: none;
-    height: 200px;
+    /* height: 200px; */
     margin-bottom: -7px;
 }
 
@@ -1867,6 +1878,7 @@ button.contact-form-btn {
     font-size: 16px;
     line-height: 19px;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 .box-save {
