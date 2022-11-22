@@ -203,7 +203,7 @@
   }
   /* COMPANY OVERVIEW PAGE */
   .container-overview {
-    padding: 30px 39px;
+    padding: 0px 39px;
   }
 
   .bu-wrapper {
@@ -219,6 +219,13 @@
     display: block;
   }
 
+  .manager-wrapper, .manager-wrapper-card{
+    padding-left: 0;
+  }
+
+  .bu-wrapper-second{
+    margin-bottom: 157px;
+  }
   /* RESULT */
   .container_collection {
     padding: 0 39px;
@@ -247,28 +254,8 @@
 /*/   /*/
 
 
-  /* h1.container_heading-text{
-    text-align: center;
-    text-align: center;
-    font-size: 26px;
-    margin: 0
-  }
 
-  .container_heading.heading-left {
-    background-position: 73% 100%;
-    align-items: center;
-    margin-bottom: 15px;
-} */
-  .container_management-item {
-    flex: 100%;
-    min-width: 100%;
-  }
-
-  .container_management-list {
-    height: auto;
-    display: block;
-  }
-
+  
   .ceo-explain {
     background: #2867b1;
   }
@@ -283,13 +270,14 @@
     height: auto;
   }
 
+  .contact-forms-list {
+    flex-wrap: wrap;
+  }
   .contact-form-item {
     width: 100%;
   }
 
-  .contact-forms-list {
-    flex-wrap: wrap;
-  }
+ 
   /* SERVICE */
 
   .container_heading, .heading_title   {
@@ -303,6 +291,17 @@
   }
 
 
+
+
+  .container_management-item {
+    flex: 100%;
+    min-width: 100%;
+  }
+
+  .container_management-list {
+    height: auto;
+    display: block;
+  }
 
   .container_labor-development {
     padding: 0 39px;
@@ -520,9 +519,9 @@
   .container_health-care {
     padding: 0;
   }
-  .container_background-top {
-    /* margin: 0; */
-  }
+  /* .container_background-top {
+    margin: 0;
+  } */
   .layout_health-care {
     flex-wrap: wrap;
     padding: 0 15px;
@@ -803,7 +802,7 @@
 
   .manager-wrapper {
     padding: 0;
-  }  }
+  }  
 
   /* .bu-container {
     min-width: 100%;
@@ -825,13 +824,14 @@
   .bu-wrapper-second{
     margin-bottom: 157px;
   }
-  /* .container-fluid {
-    background-color: red;
+  .container-fluid {
     padding-left: 15px;
     padding-right: 15px;
     height: auto;
-  } */
-
+  }
+  .contact-forms-list {
+    flex-wrap: wrap ;
+  }
 
 
   
@@ -844,7 +844,7 @@
   }
 
   .container_result-item {
-    width: calc((100% - 30px) / 2);
+    width: calc((100% - 30px) / 1);
   }
   /* .container_management-list {
     height: auto;
@@ -867,9 +867,7 @@
     width: 100%;
   }
 
-  .contact-forms-list {
-    /* flex-wrap: wrap ; */
-  }
+ 
   .container_form-box-list {
     flex-wrap: wrap;
     margin-top: 20px;
@@ -902,8 +900,8 @@
     margin-bottom: 20px;
   }
 
-  .container_service-card-number {
-  }
+  /* .container_service-card-number {
+  } */
 
   
   .container_service-card-number .number {
