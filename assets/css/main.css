@@ -41,6 +41,7 @@
 }
 
 .header_fixed {
+    top: 0;
     position: fixed;
     z-index: 99999;
     padding: 8px 16px;
@@ -84,12 +85,7 @@
     padding-top: 8px;
     display: flex;
     justify-content: space-between;
-    /* height: 100%; */
-    position: fixed;
-    height: 100px;
-    z-index: 10;
-    background-color: #163266;
-    width: 100%;
+    height: 100%;
 }
 
 .navbar-collapse {
@@ -1637,7 +1633,8 @@ span.manager-name {
 
 .container_management-item{
     /* margin-top: 53px; */
-    width: 505px    ;
+    width: 710px    ;
+    margin-top: 20px;
 }
 
 .container_management-item-card {
