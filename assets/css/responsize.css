@@ -3,7 +3,7 @@
     display: none;
   }
   .header {
-    height: 85px;
+    height: 100px;
   }
   .header_language {
     display: none;
@@ -425,7 +425,7 @@
   }
   .header_navbar {
     align-items: center;
-    margin: 10px 25px;
+    
   }
   .grid.section_banner {
     flex-wrap: wrap;

@@ -13,6 +13,8 @@
 
 * {
     box-sizing: inherit;
+    margin: 0;
+    padding: 0;
 }
 
 html {
@@ -35,9 +37,10 @@ a {
 }
 
 .grid {
-    width: 1457px;
+
     max-width: 100%;
     margin: 0 auto;
+    padding: 8px 16px;
 }
 
 .grid__full-width {
