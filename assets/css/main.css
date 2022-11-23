@@ -46,7 +46,7 @@
     position: fixed;
     height: 120px !important;
     z-index: 99999;
-    padding: 8px 16px;
+    padding: 8px 40px;
     background: linear-gradient(89.93deg, #0f254f .07%, #10488a);
     width: 100%;
     animation: growHeader ease 0.3s forwards;
@@ -319,6 +319,9 @@ h3{
     }
 }
 
+.container_parters-list{
+    margin: 0 40px;
+}
 @keyframes fadeInLeft {
     from{
         opacity: 0;
@@ -1686,7 +1689,7 @@ spa.manager-name {
     margin: 20px 0;
 }
 .container-overview {
-    padding: 20px 0 ;
+    padding: 20px 40px ;
 }
 .container_result-item-title {
     margin: 15px 0;
