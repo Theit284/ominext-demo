@@ -105,7 +105,7 @@
     position: absolute;
     top: -20px;
     left: 185px;
-    color: #dcd4d4;
+    color: #fff;
 }
 .navbar-collapse {
     position: absolute;
@@ -297,6 +297,12 @@ h2{
 h3{
     margin: 0;
     font-size: 16px;
+}
+b{
+    font-size: 50px;
+}
+.container_heading-text{
+    font-size: 40px;
 }
 
 
@@ -859,6 +865,18 @@ h3{
     position: relative;
 }
 
+.footer_head-logo{
+    margin-bottom: 30px;
+}
+.content_logo-footer{
+
+    font-size: 110px;
+    /* margin-bottom: 12px; */
+    position: absolute;
+    top: 173px;
+    left: 185px;
+    color: #fff;
+}
 
 /* Add Automation CSS */
 
@@ -1190,7 +1208,8 @@ div .certification-awards-item-middle {
 }
 
 h2.title {
-    margin: 15px 0 0 0;
+    /* margin: 15px 0 0 0; */
+    font-size: 40px;
 }
 
 .bar_bottom-heading {
@@ -2144,6 +2163,9 @@ button.contact-form-btn {
     font-size: 1.6rem;
 }
 
+.container_field-item-link > img{
+    width: 100%;
+}
 /* WHY US */
 
 .container_whyus-list {
