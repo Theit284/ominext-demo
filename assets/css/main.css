@@ -299,7 +299,7 @@ h3{
     font-size: 16px;
 }
 b{
-    font-size: 50px;
+    font-size: 60px;
 }
 .container_heading-text{
     font-size: 40px;
@@ -818,7 +818,7 @@ b{
 }
 
 .container_post-home-item-title h3 {
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     font-size: 20px;
     color: #fa8c1e;
     margin-bottom: 0.5rem;
@@ -969,6 +969,14 @@ div .certification-awards-item-middle {
     flex: 2;
 }
 
+
+.fa-locations{
+    font-size: 20px;
+color: white;
+margin-top: 12px;
+margin-right: 10px;
+}
+
 .footer_head-itemr-logo-description {
     font-size: var(--text-font);
     color: #fff;
@@ -1030,8 +1038,9 @@ div .certification-awards-item-middle {
 
 .link-footer>a {
     font-size: var(--text-font);
-    color: var(--gray-color);
-    font-weight: 700;
+    /* color: var(--gray-color);
+    font-weight: 300; */
+    /* background: url(../img/contact-call.png) no-repeat 0 2px */
 }
 
 .footer_head-item-address-vi {
@@ -1050,6 +1059,10 @@ div .certification-awards-item-middle {
     font-weight: 400;
     background: url(../img/building.png) no-repeat 0 2px;
     margin-bottom: 30px;
+}
+
+.footer_head-item--infomation{
+    margin-bottom: 28px;
 }
 
 .footer_head-item-office {
@@ -1088,6 +1101,23 @@ div .certification-awards-item-middle {
     background: url(../img/building.png) no-repeat 0 2px;
     padding-left: 30px;
     font-size: 16px;
+    margin-bottom: 0;
+}
+.footer_head-item-phone-text {
+    white-space: pre-line;
+    color: #fff;
+    font-weight: 400;
+    background: url(../img/contact-call.png) no-repeat 0 2px;
+    padding-left: 30px;
+    font-size: 16px;
+}
+.footer_head-item-email-text {
+    white-space: pre-line;
+    color: #fff;
+    font-weight: 400;
+    background: url(../img/contact-message.png) no-repeat 0 2px;
+    padding-left: 30px;
+    font-size: 16px;
 }
 
 .link-footer-first {
@@ -1097,16 +1127,19 @@ div .certification-awards-item-middle {
 .link-footer-first>a {
     font-size: var(--text-font);
     color: var(--white-color);
-    font-weight: 700;
+    font-size: 13px;
+    /* font-weight: 700; */
+    /* background: url(../img/contact-call.png) no-repeat 0 2px; */
 }
 
 .light-link:before {
-    content: "\f105";
+    content: "";
     font-family: FontAwesome;
     font-style: normal;
     font-weight: 400;
     color: #ccc;
     padding-right: 5px;
+    background: url(../img/contact-adrent.jpg) no-repeat 0 2px;
 }
 
 .menu-text {
@@ -1385,6 +1418,16 @@ h2.title {
     content: "";
 }
 
+.header_footer{
+    display: flex;
+}
+
+.header_footer>img{
+    width: 30px;
+    height: 30px;
+    margin-top: 8px;
+    margin-right: 3px;
+}
 
 /* .container_review-item:nth-child(1),
 .container_review-item:nth-child(2) {

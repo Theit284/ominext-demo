@@ -27,3 +27,5 @@ contactLinks[1].addEventListener("click", ()=>{
     mapContents[0].classList.remove("map-content-active")
     mapContents[1].classList.add("map-content-active")
 })
+
+
