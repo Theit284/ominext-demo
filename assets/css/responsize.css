@@ -192,9 +192,9 @@
   }
 
   .content_logo-footer{
-    margin-left: 39px;
-    font-size: 122px;
-    top: 162px
+    font-size: 76px;
+    top: 72px;
+    left: 98px;
   }
   .footer_head-item:nth-child(1) {
     flex: 1;
@@ -513,6 +513,13 @@
     padding-right: 0px;
      margin-right: 0px;
   }
+
+  /* service   */
+
+  .container_service-item-flat, .service_customer-info-img{
+    padding: 0;
+  }
+  
 }
 
 
