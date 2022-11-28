@@ -1040,13 +1040,13 @@
   }
 
   .layout_certification-purposes-image img {
-    width: 337px;
+    width: 100%;
     margin-bottom: 20px;
   }
 
   .layout_certification-purposes-item {
-      width: 337px;
-  }
+      width: 100%;
+     }
 
   .layout_certification-purposes-item>p {
     font-size: 14px;
