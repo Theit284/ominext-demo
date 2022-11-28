@@ -638,7 +638,6 @@ b{
 .container_certification-purposes {
     background: #ecf5ff;
     margin-top: 15px;
-    height: 740px;
 }
 
 .heading-text-certification-purposes>h1 {
@@ -657,7 +656,7 @@ b{
 
 .layout_certification-purposes-item {
     background-color: #fff;
-  width: 840px;
+  width: 100%;
   padding: 7px;
   margin-bottom: 10px;
   border-radius: 10px;
