@@ -1,7 +1,7 @@
 @media (min-width: 740px) and (max-width: 1140px) {
-  .bar_bottom {
+  /* .bar_bottom {
     display: none;
-  }
+  } */
   .header {
     height: 100px;
   }
@@ -564,9 +564,9 @@
   .container_parters-list{
     margin: 0 31px;
   }
-  .bar_bottom {
+  /* .bar_bottom {
     display: none;
-  }
+  } */
   .header_language {
     display: none;
   }
