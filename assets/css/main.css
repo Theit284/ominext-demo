@@ -232,6 +232,7 @@ a.sub_menu-link {
 .section_banner-logo {
     position: relative;
     width: 50%;
+    margin-bottom: 25px;
 }
 
 .section_banner-image> img{
@@ -542,12 +543,12 @@ b{
 .layout_health-care-right-content {
     /* margin-top: 60px; */
     position: relative;
-    margin-left: 23px;
+    margin-left: 42px;
 }
 
 .layout_health-care-right-content-list{
     display: grid;
-    grid-template-columns: 307px 307px 307px;
+    grid-template-columns: 24% 24% 24%;
     grid-template-rows: 208px 180px;
     margin-top: 28px;
     grid-gap: 11rem 13rem;
@@ -568,8 +569,15 @@ b{
     left: -40px;
 }
 
-.layout_health-care-right-content-image>img{
+.layout_health-care-right-content-image .circle_img{
     width: 1250px;
+}
+.layout_health-care-right-content-image .circle_doc{
+    display: none;
+}
+
+.layout_health-care-right-content-vector{
+    margin-bottom: 40px;
 }
 
 .vector_down{
@@ -577,7 +585,9 @@ b{
     left: -49px;
     top: 241px;
 }
-
+.vector_down-last{
+    display: none;
+}
 .vector_right-firts{
     position: absolute;
     position: absolute;
@@ -588,18 +598,20 @@ b{
 .vector_right-last{
     position: absolute;
     top: 92px;
-    right: 398px;
+    right: 36%;
 }
 
 .vector_up{
     position: absolute;
     top: 241px;
-    right: -14px;
+    right: -1.6%;
 }
-
+.vector_up-last{
+    display: none;
+}
 .vector_left-firts{
     position: absolute;
-    right: 398px;
+    right: 36%;
     top: 402px;
 }
 
@@ -952,7 +964,7 @@ b{
 .container_health-care {
     height: auto;
     padding-bottom: 15px;
-    padding-top: 60px;
+    padding-top: 0px;
 }
 
 .container_post-home-item-title h3 {
@@ -1374,6 +1386,7 @@ ul li.footer_head-collection-address{
     grid-template-rows: 180px 180px;
   margin-top: 28px;
   grid-gap: 2rem 2rem;
+  margin-bottom: 25px;
 }
 
 .section_content-info-item{
