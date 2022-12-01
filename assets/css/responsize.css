@@ -746,7 +746,6 @@
 }
 
 
-
 @media (max-width: 740px) {
 
   .grid, .header_fixed  {
@@ -1485,4 +1484,68 @@
   }
 
 
+}
+
+@media (min-width: 1440px){
+  .vector_up {
+    position: absolute;
+    right: -1.6%;
+  }
+  .vector_right-firts {
+    position: absolute;
+    left: 344px;
+  }
+  .vector_letf-last {
+    position: absolute;
+    left: 344px;
+  }
+} 
+
+
+@media (min-width: 1920px) {
+  .section_content-info-list {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1.08fr 1.08fr 1.08fr;
+    grid-template-rows: 205px 205px;
+  }
+  .section_content-image >img{
+    width: 342px;
+    height: 407px;
+  }
+
+  .layout_health-care-right-content-list {
+    display: grid;
+    grid-template-columns: 27% 27% 27%;
+  }
+  .layout_health-care-right-content-image .circle_img {
+    width: 1696px;
+    height: 313px;
+  }
+  .vector_up {
+    position: absolute;
+    right: 1%;
+  }
+  .vector_right-firts {
+    position: absolute;
+    top: 91px;
+    left: 507px;
+  }
+  .vector_right-last {
+    position: absolute;
+    right: 34%;
+  }
+  .vector_left-firts {
+    position: absolute;
+    right: 34%;
+  }
+  .vector_letf-last {
+    position: absolute;
+    left: 507px;
+  }
+  .img-line_first {
+    position: absolute;
+    top: -19px;
+  }
+  
 }
