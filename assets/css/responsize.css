@@ -186,11 +186,11 @@
   .section_content-image{
     display: none;
   }
-  .section_content-info-list {
+  /* .section_content-info-list {
     width: 100%;
     display: grid;
     grid-template-columns: 1.067fr 1.067fr;
-  }
+  } */
 
   .top-choice {
     padding: 0 120px;
@@ -1024,6 +1024,10 @@
     height: 50px;
   }
 
+  .img-line{
+    
+  }
+
   .img-line_first {
     position: absolute;
     top: 5px;
@@ -1563,11 +1567,7 @@
   .section_content-image{
     width: 28%;
   }
-  .section_content-image >img{
-    width: 312px;
-    height: 433px;
-
-  }
+  
 
   .layout_health-care-right-content-list {
     margin-right: 65px;
@@ -1587,10 +1587,10 @@
     border-radius: 28px; */
   }
 
-  .container_top-choice-item-img>img {
+  /* .container_top-choice-item-img>img {
       width: 195px;
       height: 198px;
-  }
+  } */
   .container_top-choice-item-info{
     padding: 15px ;
   }
@@ -1638,11 +1638,11 @@
   }
   .img-line_first {
     position: absolute;
-    top: -19px;
+    top: 0;
   }
   
   .layout_certification-purposes-image img {
-    height: 471px;
+    /* height: 471px; */
   }
 
 
@@ -1658,5 +1658,12 @@
 
   .content_logo-footer {
     left: 306px;
+  }
+
+  .img-line{
+    top: 9px
+  }
+  .img-line-last {
+    top: 86px
   }
 }

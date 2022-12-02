@@ -44,7 +44,7 @@
 
 
 .navbar_list-item--active{
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #ED1B23;
     /* background-color: red; */
 }
 .header_fixed {
@@ -105,7 +105,7 @@
     /* margin-bottom: 12px; */
     position: absolute;
     top: -35px;
-    left: 176px;
+    left: 185px;
     color: var(--black-color);
 }
 .navbar-collapse {
@@ -179,10 +179,14 @@ a.sub_menu-link {
 
 
 .navbar_list-item-link {
-    font-size: var(--text-font);
+    font-size: 16px;
     color: var(--black-color);
     margin: 0 24px;
     padding: 8px 0;
+}
+
+.navbar_list-item-link:hover{
+    color: #ED1B23;
 }
 
 .section_header {
@@ -265,10 +269,13 @@ a.sub_menu-link {
     background-image: url(../img/screen.png);
 } */
 
-.container{
+/* .container{
+    background-color: #F5F5F5;
+} */
+
+.top-choice{
     background-color: #F5F5F5;
 }
-
 .container_heading {
     margin-top: 0;
     min-height: 80px;
@@ -356,7 +363,7 @@ b{
     /* width: 500px; */
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 20px;
+    grid-gap: 42px;
 }
 
 .container_top-choice-item {
@@ -404,8 +411,9 @@ b{
 }
 
 .container_top-choice-item-img>img{
-    width: 164px;
+    width: 200px;
     margin-bottom: 15px;
+    height: 200px;
 }
 
 .container_top-choice-item-info {
@@ -413,19 +421,21 @@ b{
 }
 
 .container_top-choice-item-info>h3 {
-    font-size: 2rem;
+    font-size: 32px;
     margin: 0;
-    margin-bottom: 8px;
+    margin-bottom: 16px;
+    margin-top: 35px;
 }
 
 .container_top-choice-item-info p {
     text-align: justify;
     font-weight: 500;
-    font-size: var(--text-font);
+    font-size: 18px;
     /* white-space: pre-line; */
     margin: 0;
     color: var(--text-color);
     margin-bottom: 16px;
+    line-height: 23px;
 }
 
 .container_health-care .container_background-top {
@@ -539,6 +549,7 @@ b{
 .layout_health-care-right {
     /* width: 50%; */
     margin-top: 100px;
+    background-color: #f5f5f5;
 }
 
 .layout_health-care-right-title {
@@ -554,7 +565,8 @@ b{
 }
 .layout_health-care-right-title .heading-text>h1 {
     line-height: 3.9rem;
-    font-size: 40px;
+    font-size: 48px;
+    font-weight: 700;
     padding-right: 28px;
     text-align: center;
 }
@@ -576,7 +588,7 @@ b{
     grid-template-columns: 24% 24% 24%;
     grid-template-rows: 208px 180px;
     margin-top: 28px;
-    grid-gap: 11rem 13rem;
+    grid-gap: 112px 114px
 
 }
 
@@ -770,7 +782,7 @@ b{
 
 .img-line {
     position: absolute;
-    top: 0;
+    top: 30px;
     left:calc(100% - 50px);
 }
 .img-line_first {
@@ -781,7 +793,7 @@ b{
 
 .img-line-last{
     position: absolute;
-    top: 85px;
+    top: 127px;
     left:calc(100% - 50px);
 }
 .icon-c .icon-c1 {}
@@ -806,9 +818,8 @@ b{
     width: 50%;
 }
 .layout_certification-purposes-image img{
-    width: 403px;
-    width: 100%;
-    height: 526px;
+    width: 622px;
+    height: 750px;
     /* padding-right: 50px; */
     margin-top: 9px;
 }
@@ -821,14 +832,17 @@ b{
 .layout_certification-purposes-item {
     background-color: #fff;
     width: 100%;
-    padding: 7px;
-    margin-bottom: 10px;
+    padding: 20px 27px;
+    margin-bottom: 28px;
+    margin-top: 10px;
     border-radius: 23px;
     border: 1px solid #d1d1d1;
+    height: 166px;
 }
 
 .layout_certification-purposes-item>p{
-    font-size: 1.5rem;
+    font-size: 14px;
+    line-height: 24px;
 }
 
 .heading-text>h1 {
@@ -1012,11 +1026,11 @@ b{
 
 .container_post-home-item-title h3 {
     /* text-transform: uppercase; */
-    font-size: 20px;
-    color: #fa8c1e;
+    font-size: 35px;
+    color: #ED1B23;
+    font-weight: 700;
     margin-bottom: 0.5rem;
-    font-weight: 500;
-    line-height: 1.2;
+    line-height: 44px;
 }
 
 .icon-d {
@@ -1045,7 +1059,8 @@ b{
     margin-top: 50px;
 }
 .container_partners-item-img {
-    width: calc((100% - 600px) / 6);
+    width: calc((100% - 120px) / 6);
+    width: 120px;
 }
 .footer {
     margin-top: 0;
@@ -1070,7 +1085,7 @@ b{
     /* margin-bottom: 12px; */
     position: absolute;
     top: -17px;
-    left: 177px;
+    left: 185px;
     color: var(--white-color);
 }
 
@@ -1078,10 +1093,10 @@ b{
 
 .icon-d>p {
     margin: 0;
-    font-size: 1.5rem;
+    font-size: 16px;
     margin-bottom: 0;
     text-align: justify;
-    line-height: 25px;
+    line-height: 21px;
 }
 
 .icon-c {
@@ -1416,20 +1431,21 @@ ul li.footer_head-collection-address{
 }
 
 .section_content-image >img{
-    margin-top: 70px;
-    width: 225px;
-    height: 362px;
+    margin-top: 163px;
+    width: 295px;
+    height: 392px;
     margin-right: 37px;
+
 }
 
 .section_content-info-list{
     width: 77%;
-  display: grid;
-  grid-template-columns: repeat(3, 1.067fr);
-    grid-template-rows: 194px 194px;
-  margin-top: 28px;
-  grid-gap: 2rem 2rem;
-  margin-bottom: 25px;
+    display: grid;
+    grid-template-columns: repeat(3, 1.067fr);
+    grid-template-rows: 250px 250px;
+    margin-top: 28px;
+    grid-gap: 32px 32px;
+    margin-bottom: 25px;
 }
 
 .section_content-info-item{
@@ -1437,7 +1453,7 @@ ul li.footer_head-collection-address{
     width: 100%;
     border: 1px solid #D1D1D1;
     border-radius: 20px;
-    padding: 39px 25px;
+    padding: 44px 29px;
 }
 
 .section_content-info-item:hover{
@@ -1458,6 +1474,7 @@ ul li.footer_head-collection-address{
     color: var(--black-color);
     /* font-size: var(--text-font); */
     font-size: 20px;
+    line-height: 27px;
 }
 
 h2.title {
@@ -1546,6 +1563,11 @@ h2.title {
     font-size: 3rem;
 }
 
+.container_review-btn>img {
+    width: 40px;
+    height: 40px;
+}
+
 .container_review-list {
     display: flex;
     width: 100%;
@@ -1577,12 +1599,14 @@ h2.title {
 }
 
 .container_review-item-author {
-    font-size: 25px;
+    font-size: 28px;
     text-transform: uppercase;
     color: #ED1B23;
     /* text-align: center; */
     padding-right: 50px;
     margin-left: 31px;
+    font-weight: 700;
+    line-height: 37px;
 }
 .container_review-item-author--co {
     font-size: 21px;
@@ -1623,8 +1647,8 @@ h2.title {
 .container_review-item-img>img {
     
     border-radius: 100%;
-    height: 198px;
-    width: 201px;
+    height: 240px;
+    width: 240px;
 }
 
 .btn-left {
