@@ -275,6 +275,8 @@ a.sub_menu-link {
     white-space: pre-line;
     margin-bottom: 37px;
     background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
 }
 
 .heading-left {
@@ -318,9 +320,17 @@ b{
     font-size: 60px;
     /* color: #ED1B23; */
 }
+
+.section_content-title {
+    display: flex;
+    justify-content: center;
+}
 .container_heading-text{
-    font-size: 40px;
+    font-size: 48px;
+    margin: 70px 0 39px;
     text-align: center;
+    padding: 0 167px;
+    width: 1073px;
 }
 
 
@@ -619,7 +629,7 @@ b{
 .vector_up{
     position: absolute;
     top: 241px;
-    right: 2.6%;
+    right: 4.7%;
 }
 .vector_up-last{
     display: none;
@@ -1694,10 +1704,43 @@ h2.title {
 /* COMPANYY */
 .container_company-overview-list {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 
-.container_company-overview-item-col-3 {
+
+.logo_image-ncc{
+    width: 50%;
+}
+
+.logo_image-ncc>img{
+    width: 600px;
+    height: 535px;
+}
+.container_company-overview-list-info{
+    width: 14%;
+    margin-top: 90px;
+}
+.container_company-overview-list-info--item{
+    display: flex;
+    padding: 12px;
+}
+.icon-info-wrap{
+    margin-right: 5px;
+    font-size: 20px;
+    color: #ED1B23;
+}
+.basic-info-title{
+    font-size: 20px;
+    color: #ED1B23;
+}
+.container_company-overview-list-address{
+    margin-top: 90px;
+}
+.container_company-overview-item{
+    font-size: 18px;
+    padding: 13px 0;
+}
+/* .container_company-overview-item-col-3 {
     flex: 3;
     display: flex;
     background-color: #ecf5ff;
@@ -1724,7 +1767,7 @@ img.icon-info-description {
     margin: 0 15px 0 0;
     justify-content: center;
     /* height: 100%; */
-}
+*/
 
 .basic-info-title {
     font-size: var(--text-font);
@@ -1733,7 +1776,7 @@ img.icon-info-description {
 .container_company-overview {
     margin-top: 25px;
     border-width: 0.5px 0;
-    border-style: solid;
+    /* border-style: solid; */
 }
 
 .dotted {
@@ -1902,6 +1945,7 @@ spa.manager-name {
 }
 .container_management-category {
     position: relative;
+    display: flex;
 }
 
 .container_management-item{
