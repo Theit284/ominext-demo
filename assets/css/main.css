@@ -1028,8 +1028,8 @@ b{
 }
 .container_partners-item-img {
     /* width: calc((100% - 186px) / 6); */
-    width: 186px;
-    height: 136px;
+    width: 14%;
+    height: 14%;
 }
 .footer {
     margin-top: 0;
