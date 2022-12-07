@@ -428,7 +428,7 @@ b{
 }
 
 .container_top-choice-item-img>img{
-    width: 200px;
+    width: 40%;
     margin-bottom: 15px;
     height: 200px;
 }
@@ -785,7 +785,7 @@ b{
     width: 50%;
 }
 .layout_certification-purposes-image img{
-    width: 622px;
+    width: 100%;
     height: 750px;
     /* padding-right: 50px; */
     margin-top: 9px;
@@ -1401,17 +1401,20 @@ ul li.footer_head-collection-address{
 .section_content-info{
     display: flex;
 }
+.section_content-image{
+    margin-right: 32px;
+}
 
 .section_content-image >img{
     margin-top: 163px;
-    width: 295px;
+    width: 100%;
     height: 392px;
     margin-right: 37px;
 
 }
 
 .section_content-info-list{
-    width: 77%;
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1.067fr);
     grid-template-rows: 250px 250px;
