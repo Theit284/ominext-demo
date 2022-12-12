@@ -19,15 +19,18 @@ function replaceBoxSlide(){
     }
 }
 btnLeft.addEventListener("click", () => {
-    let check = 0
-    if(indexReviewList > 1 && check ==0){  
-        check += 1
+   
+    if(indexReviewList > 1   ){ 
+
+        
         indexReviewList -=1;
-    }
-    if(indexReviewList == 1 && check == 0){
-        check +=1
+    } else{
+      if(indexReviewList == 1 ){
+        
         indexReviewList = reviewList.childElementCount   
     }
+    }
+    
     replaceBoxSlide()
     if (direction === -1) {
         reviewList.append(reviewList.firstElementChild);
@@ -38,15 +41,18 @@ btnLeft.addEventListener("click", () => {
 
 })
 btnRight.addEventListener('click', () => {
-    let check = 0
-    if(indexReviewList < reviewList.childElementCount && check ==0){
-        check +=1
+    
+    if(indexReviewList < reviewList.childElementCount ){
+        
         indexReviewList +=1;
-    }
-    if(indexReviewList == reviewList.childElementCount && check ==0){
-        check +=1
+    } else{
+      if(indexReviewList == reviewList.childElementCount ){
+       
         indexReviewList =1; 
     }
+
+    }
+    
     replaceBoxSlide()
     direction = -1;
     carousel.style.justifyContent = 'flex-start';
